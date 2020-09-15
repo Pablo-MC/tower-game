@@ -4,10 +4,35 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
+   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+   
+   <!-- FONT AWESOME -->
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+   <!-- GOOGLE FONTS -->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap">
+   <!-- CUSTOM CSS -->
    <link rel="stylesheet" href="css/style.css">
+   
    <title>Tower Game</title>
 </head>
 <body>
+   <div class="container">
+      <h1>Tower Game</h1>
+      <div class="difficulty">
+         <button class="mode easy">Easy</button>
+         <button class="mode medium">Medium</button>
+         <button class="mode hard">Hard</button>
+      </div>
+      <div class="row">
+         <div class="controls">
+            <button class="reset">Reset<i class="fas fa-sync-alt"></i></button>
+            <i class="fas fa-music icon-sound"></i>
+         </div>
+      </div>
+      <!-- <button class="test">Solution</button> -->
+   </div>
+   
+   <audio src="audio/game-music.mp3" type="audio/mp3" autoplay loop></audio>
    
 
    <script src="js/script.js"></script>
